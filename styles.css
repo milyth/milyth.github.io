@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+:root {
+  --bg: #2E3440;
+  --bg-alt: #3B4252;
+  --border: #434C5E;
+  --focus: #D8DEE9;
+}
+
+html {
+  color-scheme: dark;
+  background-color: var(--bg);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#ime {
+  border-radius: 120%;
+  border: solid var(--border);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#whoami {
+  text-align: center;
+}
+
+#me {
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--bg-alt);
+  border: solid var(--border);
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.p-name {
+  text-align: center;
+}
+
+.p-desc {
+  text-align: center;
+}
+
+.source {
+  flex-direction: row;
+  align-self: center;
+
+}
+
+.octocat {
+  background-color: var(--bg);
+  border-radius: 20%;
+  padding: 20px;
+}
+
+.langs {
+  flex-direction: row;
+  align-self: center;
+  margin: 10px;
+}
+
+.lang {
+  background-color: var(--bg);
+  border-radius: 20%;
+  padding: 10px;
+  margin: 10px;
+}
+
+#projects {
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  #projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
