@@ -32,7 +32,7 @@ const Octocat = html`<img class="octocat" src="github-mark-white.png" width=20 h
 const Lang = ({ text }) => html`<span class="lang">${text}</span>`
 /**
  * A Project HTML Element
- * @param {Object} props 
+ * @param {Object} props
  * @param {Project} props.project
  */
 const Project = (props) => html`<div class="project">
@@ -44,19 +44,19 @@ const Project = (props) => html`<div class="project">
 
   <h5 class="p-desc"> ${props.project.description} </h5>
 
-  <div class="source"> 
+  <div class="source">
     <a target="_blank" href=${props.project.githubUrl}>${Octocat}</a>
   </div>
 </div>`
 
 
 render(html`<div id="content">
-  <div id="me"> 
+  <div id="me">
     <img id="ime" src="https://github.com/milyth.png" width=200 height=200 />
     <h1 id="whoami"> I'm Milyth </h1>
   </div>
 
     <div id="projects">
       ${PROJECTS.map(project => html`<${Project} project=${project} />`)}
-    </div >
-</div > `, document.body);
+    </div>
+</div>`, document.body);
