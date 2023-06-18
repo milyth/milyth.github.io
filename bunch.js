@@ -25,6 +25,36 @@ const PROJECTS = [
     description: "A simple listing website, just for testing",
     langs: ['Python', 'FastAPI', `Sqlite3`],
     githubUrl: "https://github.com/milyth/simple-poems"
+  },
+
+  {
+    name: "Zarra",
+    description: "A stupid simple screen recorder for Linux (X11, Wayland) that don't eat your CPU",
+    langs: ["C", "FFMPEG"],
+    githubUrl: "https://github.com/milyth/zarra"
+  },
+
+  {
+    name: "Portfolio",
+    description: "This thing that you are currently seeing.",
+    langs: ["JavaScript", "Preact"],
+    githubUrl: "https://github.com/milyth/milyth.github.io"
+  },
+
+
+  {
+    name: "Azeitona",
+    description: "A Bridge between Discord and IRC.",
+    langs: ["Go"],
+    githubUrl: "https://github.com/milyth/azeitona"
+  },
+
+
+  {
+    name: "Memdump",
+    description: "Dump a process's heap into a file",
+    langs: ["C"],
+    githubUrl: "https://github.com/milyth/memdump"
   }
 ]
 

@@ -21,7 +21,6 @@ html {
 #content {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
 }
@@ -37,7 +36,6 @@ html {
 .project {
   display: flex;
   flex-direction: column;
-
   background-color: var(--bg-alt);
   border: solid var(--border);
   border-radius: 10%;
@@ -56,7 +54,6 @@ html {
 .source {
   flex-direction: row;
   align-self: center;
-
 }
 
 .octocat {
@@ -87,5 +84,11 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project {
+    width: 32%;
+    max-height: 16%;
   }
 }
