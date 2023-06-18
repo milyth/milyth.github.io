@@ -36,7 +36,7 @@ const PROJECTS = [
 
   {
     name: "Portfolio",
-    description: "This thing that you are currently seeing.",
+    description: "The thing that you are currently seeing.",
     langs: ["JavaScript", "Preact"],
     githubUrl: "https://github.com/milyth/milyth.github.io"
   },
